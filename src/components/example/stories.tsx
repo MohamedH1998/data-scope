@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react"
 import Example from "./index"
 
 export default {
-  title: "Example / Example",
+  title: "Example / Test",
   component: Example,
   argTypes: {}
 } as ComponentMeta<typeof Example>
