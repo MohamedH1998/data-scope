@@ -1,12 +1,12 @@
-import Image from "next/image"
-import React, { MouseEventHandler, ReactElement } from "react"
+import Image from "next/image";
+import React, { MouseEventHandler, ReactElement } from "react";
 
 interface Props {
-  executeScroll?: MouseEventHandler<HTMLButtonElement>
+  executeScroll?: MouseEventHandler<HTMLButtonElement>;
 }
 const Hero = ({ executeScroll }: Props): ReactElement => {
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full min-h-screen px-6 nav:px-20 pt-20 md:pt-0">
       <div className="flex items-center justify-center flex-col sm:flex-row pt-10">
         <div className="">
           <h1 className="text-5xl pt-5 font-semibold md:text-5xl lg:text-7xl lg:leading-[70px] h-full">
@@ -42,7 +42,7 @@ const Hero = ({ executeScroll }: Props): ReactElement => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
